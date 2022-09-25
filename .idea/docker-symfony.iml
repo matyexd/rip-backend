@@ -131,6 +131,7 @@
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/symfony/console" />
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/symfony/twig-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/symfony/notifier" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/symfony/amqp-messenger" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
