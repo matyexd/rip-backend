@@ -1,9 +1,12 @@
 <?php
 
-use App\Message\TestMessage;
-use Symfony\Component\Messenger\Handler\MessageHandlerInterface;
+namespace App\MessageHandler;
 
-final class TestMessangeHandler implements MessageHandlerInterface
+use App\Message\TestMessage;
+use Symfony\Component\Messenger\Attribute\AsMessageHandler;
+
+#[AsMessageHandler]
+class TestMessageHandler
 {
     public function __invoke(TestMessage $message)
     {

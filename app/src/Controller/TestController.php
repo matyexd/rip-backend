@@ -13,7 +13,7 @@ class TestController extends AbstractController
     #[Route('/test', name: 'test')]
     public function index(MessageBusInterface $bus): Response
     {
-        $message = new TestMessage('content');
+        $message = new TestMessage('cond2tent');
         $bus->dispatch($message);
 
         return new Response(sprintf('Message with content %s was published', $message->getContent()));
