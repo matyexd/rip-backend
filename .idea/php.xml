@@ -146,6 +146,11 @@
       <path value="$PROJECT_DIR$/app/vendor/react/promise-timer" />
       <path value="$PROJECT_DIR$/app/vendor/ratchet/rfc6455" />
       <path value="$PROJECT_DIR$/app/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/app/vendor/stella-maris/clock" />
+      <path value="$PROJECT_DIR$/app/vendor/namshi/jose" />
+      <path value="$PROJECT_DIR$/app/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/app/vendor/lcobucci/clock" />
+      <path value="$PROJECT_DIR$/app/vendor/lexik/jwt-authentication-bundle" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1">
